@@ -53,3 +53,15 @@ h1 {
     margin: 2px;
 }
 
+.btwitter {
+    background-color: white;
+    color: rgba(124, 123, 123, 0.76);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+
+}
+
