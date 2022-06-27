@@ -1,0 +1,55 @@
+* {
+    background-color: #0D1850;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9E762;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+}
+h1 {
+    height: 300px;
+    width: 300px;
+    background-color: #0E27C7;
+}
+
+.texto {
+    background: transparent;
+    position: absolute;
+
+    left:45%;
+    top: 4%;
+}
+.texto > p {
+    font-size: 3.5em;
+    line-height: 3.5em;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.ouvir {
+    background-color: white;
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 15px;
+    position: absolute;
+    left: 45%;
+    top: 22%;
+    text-align: left;
+}
+
+.ouvir > h2 {
+    background: transparent;
+    color: gray;
+    margin: 2px;
+}
+
+.ouvir > p {
+    background: transparent;
+    color: gray;
+    margin: 2px;
+}
+
