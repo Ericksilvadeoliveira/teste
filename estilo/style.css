@@ -17,13 +17,15 @@ h1 {
 .texto {
     background: transparent;
     position: absolute;
+    margin: 0px;
+    height: 100px;
 
-    left:45%;
-    top: 4%;
+    left: 45vh;
+    bottom: 80vh;
 }
 .texto > p {
     font-size: 3.5em;
-    line-height: 3.5em;
+    line-height: 1.5em;
     font-weight: normal;
     margin: 0px;
 }
@@ -36,8 +38,8 @@ h1 {
     margin: 0px;
     border-radius: 15px;
     position: absolute;
-    left: 45%;
-    top: 22%;
+    left: 45vh;
+    top: 22vh;
     text-align: left;
 }
 
@@ -63,5 +65,21 @@ h1 {
     text-decoration: none;
     text-align: center;
 
+}
+
+.binstagram {
+    background-color: white;
+    color: rgba(124, 123, 123, 0.76);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.social, .redes {
+    width: calc(33.333% - 2.6rem);
+    display: block;
 }
 
