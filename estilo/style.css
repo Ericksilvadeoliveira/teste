@@ -3,35 +3,58 @@
 * {
     margin: 0px;
     padding: 0px;
-}
-
-html, body, main {
-    height: 100vh;
-    width: 100vw;
+    border: 0;
+    resize: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: #0E27C7;
 }
-main {
-    font-family: Arial, Helvetica, sans-serif;
+.container {
     color: #F9E762;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-div {
-    display: inline-block;
+.logo {
+    max-width: 779px;
+    width: 35rem;
+    height: 39rem;
+    font-size: 0;
+    line-height: 0;
+    background: url("../imagens/fundo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
-#logo {
+.logo {
     padding: 20px;
 }
 
-#escutar {
+.escutar {
     background-color: lightgray;
-    background-size: cover;
     color: gray;
     width: 220px;
     height: 50px;
     text-align: center;
     border-radius: 7px;
     padding: 5px;
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.escutar h1 {
+    font-size: 25px;
+}
+
+.escutar p {
+    font-size: 15px;
 }
