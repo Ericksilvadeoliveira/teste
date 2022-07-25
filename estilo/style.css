@@ -13,7 +13,6 @@ body {
 }
 
 .container {
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +36,7 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 @media (max-width: 800px) {
@@ -61,7 +60,7 @@ h1 {
     align-items: center;
 }
 
-.fone {
+.mini {
     padding: 5px;
 }
 
@@ -145,3 +144,63 @@ h2 {
     align-items: center;
     gap: 5px;
 }
+
+/*APOIO*/
+
+.apoio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 0px;
+}
+
+@media (max-width: 800px) {
+    .apoio {
+        flex-direction: column;
+    }
+}
+
+.pig {
+    background: #FFFFFF;
+    width: 350px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTATO */
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.contato h1 {
+    color: #FFEE6E;
+}
+
+.contato a {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+.fale {
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
