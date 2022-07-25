@@ -4,57 +4,125 @@
     margin: 0px;
     padding: 0px;
     border: 0;
-    resize: none;
-    outline: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #0E27C7;
+    height: 100vh;
+    background: #0D1850;
 }
+
 .container {
-    color: #F9E762;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.logo {
-    max-width: 779px;
-    width: 35rem;
-    height: 39rem;
-    font-size: 0;
-    line-height: 0;
-    background: url("../imagens/fundo.png");
-    background-position: center;
-    background-size: contain;
+h1 {
+    background-size: cover;
     background-repeat: no-repeat;
-
-}
-.logo {
-    padding: 20px;
 }
 
-.escutar {
-    background-color: lightgray;
-    color: gray;
-    width: 220px;
-    height: 50px;
-    text-align: center;
-    border-radius: 7px;
-    padding: 5px;
-    margin-top: 150px;
-    margin-left: 50px;
+.topo {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.escutar {
+    background: #FFFFFF;
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fone {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+
+}
+.text {
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
 }
 
-.escutar h1 {
-    font-size: 25px;
+.text h1 {
+    font-size: 20px;
+    font-style: italic;
 }
 
-.escutar p {
-    font-size: 15px;
+.text p {
+    font-size: 12px;
+}
+
+.social{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+.soc {
+    color: #FFEE6E;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+.twitter {
+    background: #FFFFFF;
+    font-size: 20px;
+    width: 250px;
+    height: 32px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.passaro {
+    padding: 5px;
+}
+
+.instagram {
+    padding: 10px;
+}
+
+.insta {
+    background: #FFFFFF;
+    font-size: 20px;
+    width: 250px;
+    height: 32px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
